@@ -36,6 +36,6 @@ print(y)
 x = input("Enter comma-separated numbers: ").split(',')
 
 # What do you need between the square brackets to make it work?
-y = [z for z in x if z is _even_]
+y = [z for z in x if int(z) % 2 == 0]
 
 print(y)

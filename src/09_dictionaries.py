@@ -36,7 +36,7 @@ waypoints = [
 # Add a new waypoint to the list
 # YOUR CODE HERE
 
-waypoint.append({
+waypoints.append({
     "lat": 12,
     "lon": -12,
     "name": "Gold Coast"
@@ -51,5 +51,5 @@ waypoints[0]['name'] = "not a real place"
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
-for i in range(len(waypoints)):
-    print(f"lat:{waypoints[i]['lat']}, long:{waypoints[i]['lon']}, name:{waypoints[i]['name']}")
+for i in waypoints:
+    print(i)
